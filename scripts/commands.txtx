@@ -1,1 +1,2 @@
-docker run -v ./data:/data -p 8000:8000 chromadb/chroma 
+docker run -v ./data:/data -p 8000:8000 chromadb/chroma
+& .\venv\Scripts\Activate.ps1; python app/test/test.py
